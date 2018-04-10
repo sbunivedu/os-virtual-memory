@@ -93,7 +93,7 @@ sudo apt-get install ploticus
 
 Here is an [example](http://ploticus.sourceforge.net/doc/prefab_lines_ex.html)
 on how to use `ploticus` to graph tabular data.
-* Sample input in `data20`:
+* Sample data in `data20`:
 ```
 1031 20.96 6.4
 1032 19.71 5.8
