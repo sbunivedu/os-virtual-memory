@@ -104,4 +104,5 @@ on how to use `ploticus` to graph tabular data.
 ploticus -prefab lines data=data20 x=1 y=2 png -o out.png
 ```
 * The generat graph:
+
 ![example output](./example.png)
