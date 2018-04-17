@@ -27,43 +27,6 @@ Checkout the following resources for details:
 * http://linuxcommand.org/lc3_writing_shell_scripts.php
 * http://cli.learncodethehardway.org/book
 
-Linux per-thread stack size:
-ulimit -s
-8192
-8192K=2^13*K=8M
-https://unix.stackexchange.com/questions/127602/default-stack-size-for-pthreads
-
-Linux heap size:
-ulimit -m
-unlimited
-
-Handle command line arguments in C
-https://www.cs.swarthmore.edu/~newhall/unixhelp/C_commandlineargs.php
-
-logarithmic scale
-http://ploticus.sourceforge.net/doc/prefab_stdparms.html
-
-https://en.wikipedia.org/wiki/Translation_lookaside_buffer
-
-A TLB test program written by Linus.
-
-Information about CPU architecture
-man lscpu
-
-sudo apt-get install cpuid
-cpuid | grep TLB
-
-sudo apt-get install cpuset
-
-Use taskset to pin a process to a CPU core
-http://xmodulo.com/run-program-process-specific-cpu-cores-linux.html
-taskset -cp 0 9030
-
-leap seconds
-https://www.timeanddate.com/time/leapseconds.html
-https://docs.oracle.com/javase/8/docs/api/java/util/Date.html
-https://docs.oracle.com/javase/8/docs/api/java/time/Clock.html
-
 ## Measure time
 
 The Unix [time](https://en.wikipedia.org/wiki/Time_(Unix)) command can be used
