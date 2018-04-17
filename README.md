@@ -106,3 +106,5 @@ ploticus -prefab lines data=data20 x=1 y=2 png -o out.png
 * The generated graph:
 
 ![example output](./example.png)
+
+Checkout [hints.md](./hints.md) for additional help.
