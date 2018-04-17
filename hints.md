@@ -45,7 +45,7 @@ Measuring time can be tricky. You can use `gettimeofday`, `clock_gettime`, and
 [Accuracy and precision](http://www.mathsisfun.com/accuracy-precision.html) can
 be confusing.
 
-You can also measure time by counting CPU cycles as shown in [rdsc.c](./rdsc.c).
+You can also measure time by counting CPU cycles as shown in [rdtsc.c](./rdtsc.c).
 
 As a side note leap seconds can be a factor too if you are 'lucky':
 * https://www.timeanddate.com/time/leapseconds.html
