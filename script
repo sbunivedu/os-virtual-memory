@@ -1,0 +1,25 @@
+// Specify some data using proc getdata
+#proc getdata
+file: data
+fieldnames: pages ns
+
+#proc areadef
+title: TLB Size Measurement
+titledetails: size=14  align=C
+xscaletype: log
+xautorange: 4 4096
+yautorange: datafield=ns
+
+#proc xaxis
+label: Number of Pages
+selflocatingstubs: datafields 1 1
+
+#proc yaxis
+label: Time Per Access (ns)
+selflocatingstubs: datafields 1 1
+
+#proc lineplot
+xfield: pages
+yfield: ns
+linedetails: color=red
+pointsymbol: shape=diamond style=fill fillcolor=red radius=0.04

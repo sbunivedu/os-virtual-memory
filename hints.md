@@ -71,9 +71,6 @@ unlimited
 ### Handle command line arguments in C
 https://www.cs.swarthmore.edu/~newhall/unixhelp/C_commandlineargs.php
 
-### Use logarithmic scale
-http://ploticus.sourceforge.net/doc/prefab_stdparms.html
-
 ### TLB
 https://en.wikipedia.org/wiki/Translation_lookaside_buffer
 
@@ -89,3 +86,15 @@ cpuid | grep TLB
 ```
 sudo apt-get install cpuset
 ```
+
+### Plotting with logarithmic scale
+To generate a graph similar to the example graph given in the assigment you will
+need to run the following command assuming you have your plotting script in
+[`script`](./script) and your data in [`data`](./data) respectively.
+```
+ploticus script -png -o result.png
+```
+
+You should get the following graph ([`result.png`](./result.png)) as the result:
+
+![`result.png`](./result.png)
